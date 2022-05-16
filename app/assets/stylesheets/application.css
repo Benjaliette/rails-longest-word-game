@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ .banner {
+  background-size: cover;
+  background-position: top;
+  padding: 80px 0;
+  margin-bottom: 100px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: hsl(187, 33%, 84%);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.img-sidebar {
+  width: 100%;
+}
